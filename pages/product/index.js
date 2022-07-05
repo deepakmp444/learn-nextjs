@@ -1,7 +1,6 @@
 import Link from "next/link";
 function Product({ productId = 100 }) {
-
-// TODO: When we use "replace" then it totally replace =>  '/product' route then it goes in "/" route
+  // TODO: When we use "replace" then it totally replace =>  '/product' route then it goes in "/" route
 
   return (
     <div>
