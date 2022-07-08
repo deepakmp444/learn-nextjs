@@ -28,5 +28,6 @@ export async function getStaticProps() {
     props: {
       posts: data,
     },
+    revalidate: 10,// for chceking validate the data, if the data is changed then it will change, after 10 sec and 2 second fresh.
   };
 }
